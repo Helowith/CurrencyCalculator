@@ -1,0 +1,14 @@
+C:\Users\Damian\source\repos\CApp\CApp\CApp\bin\Debug\netstandard2.0\CApp.deps.json
+C:\Users\Damian\source\repos\CApp\CApp\CApp\bin\Debug\netstandard2.0\CApp.dll
+C:\Users\Damian\source\repos\CApp\CApp\CApp\bin\Debug\netstandard2.0\ref\CApp.dll
+C:\Users\Damian\source\repos\CApp\CApp\CApp\bin\Debug\netstandard2.0\CApp.pdb
+C:\Users\Damian\source\repos\CApp\CApp\CApp\obj\Debug\netstandard2.0\CApp.csprojAssemblyReference.cache
+C:\Users\Damian\source\repos\CApp\CApp\CApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Damian\source\repos\CApp\CApp\CApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Damian\source\repos\CApp\CApp\CApp\obj\Debug\netstandard2.0\CApp.AssemblyInfoInputs.cache
+C:\Users\Damian\source\repos\CApp\CApp\CApp\obj\Debug\netstandard2.0\CApp.AssemblyInfo.cs
+C:\Users\Damian\source\repos\CApp\CApp\CApp\obj\Debug\netstandard2.0\CApp.dll
+C:\Users\Damian\source\repos\CApp\CApp\CApp\obj\Debug\netstandard2.0\ref\CApp.dll
+C:\Users\Damian\source\repos\CApp\CApp\CApp\obj\Debug\netstandard2.0\CApp.pdb
+C:\Users\Damian\source\repos\CApp\CApp\CApp\obj\Debug\netstandard2.0\CApp.csproj.CoreCompileInputs.cache
+C:\Users\Damian\source\repos\CApp\CApp\CApp\obj\Debug\netstandard2.0\XamlC.stamp

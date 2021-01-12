@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:CApp.ViewModel"
+             x:Class="CApp.MainPage">
+    <ContentPage.BindingContext>
+        <local:CurrencyViewModel></local:CurrencyViewModel>
+    </ContentPage.BindingContext>
+
+    <StackLayout>
+        <Frame Padding="20" BackgroundColor="#2196F3" >
+            <Label Text="Witaj w kalkulatorze walut!" HorizontalTextAlignment="Center" TextColor="White" FontSize="30"/>
+        </Frame>
+        <Label Text="Wybierz Walutę, którą chcesz przeliczyć." FontSize="Title" Padding="20,10,20,10" TextColor="Black" HorizontalTextAlignment="Center" Margin="50,0,50,0"/>
+        <Frame BackgroundColor="#2196F3" HasShadow="True" CascadeInputTransparent="True" Margin="50,0,50,0" CornerRadius="30" HorizontalOptions="Center">
+            <Picker Title="Wybierz walutę" x:Name="CurrencyToConvert" ItemsSource="{Binding dataFrom.CurrencyName}" Margin="50,0,50,0" ></Picker>
+        </Frame>
+        <Label Text="Wybierz Walutę, na którą chcesz przeliczyć." FontSize="Title" Padding="20,10,20,10" TextColor="Black" HorizontalTextAlignment="Center" Margin="20,0,20,0"/>
+        <Frame BackgroundColor="#2196F3" HasShadow="True" CascadeInputTransparent="True" Margin="50,0,50,0" CornerRadius="30">
+            <Picker Title="Wybierz walutę" x:Name="CurrencyTarget" ItemsSource="{Binding dataFrom.CurrencyName}" Margin="20,0,20,0" HorizontalOptions="Center" ></Picker>
+            </Frame>
+        <Entry Margin="50,10,50,10" Keyboard="Numeric" x:Name="UserValue" Placeholder="Wpisz wartość do przeliczenia" HorizontalTextAlignment="Center" FontSize="20"></Entry>
+        <Label x:Name="OutCalculatedText" FontSize="Title" TextColor="black" Margin="50,10,50,0" HorizontalTextAlignment="Center"></Label>
+        <Label x:Name="OutCalculatedValue" FontSize="Title" TextColor="black" Margin="50,0,50,10" HorizontalTextAlignment="Center"> </Label>
+        <Button Text="Konwertuj!" Margin="50,0,50,0" BackgroundColor="#2196F3" CornerRadius="30" Clicked="Button_Clicked"></Button>
+    </StackLayout>
+
+</ContentPage>
